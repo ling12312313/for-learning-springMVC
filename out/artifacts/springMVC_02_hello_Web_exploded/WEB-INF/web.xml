@@ -10,6 +10,7 @@
         <!--关联一个springmvc的配置文件:【servlet-name】-servlet.xml-->
         <init-param>
             <param-name>contextConfigLocation</param-name>
+<!--            dispatchServlet的真正配置文件-->
             <param-value>classpath:springmvc-servlet.xml</param-value>
         </init-param>
         <!--启动级别-1-->
